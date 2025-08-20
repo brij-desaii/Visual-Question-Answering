@@ -1,0 +1,35 @@
+name: Final_Project
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - jupyter
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - tqdm
+  - pillow
+  - pyyaml
+  - ipywidgets
+  - pip:
+      - torch
+      - torchvision
+      - transformers
+      - datasets
+      - tokenizers
+      - pytorch_lightning
+      - peft
+      - tensorboard
+      - jupyterlab
+      - ipywidgets
+      - ipython
+      - ipykernel
+      - requests
+      - opencv-python
+      - kaggle
+      - scikit-image
+      - safetensors
